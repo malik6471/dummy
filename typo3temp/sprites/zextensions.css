@@ -90,3 +90,8 @@
 	background-image: url('../../typo3conf/ext/templavoila/icon_ds.gif') !important;
 }
 	
+.t3-icon-tx_inventory_domain_model_product-default {
+	background-position: 0px 0px !important;
+	background-image: url('../../typo3conf/ext/inventory/Resources/Public/Icons/product.gif') !important;
+}
+	

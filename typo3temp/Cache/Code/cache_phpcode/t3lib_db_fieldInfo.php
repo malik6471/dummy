@@ -45,6 +45,7 @@ return array (
     'tx_dbal_debuglog_where' => 'uid',
     'tx_templavoila_tmplobj' => 'uid',
     'tx_templavoila_datastructure' => 'uid',
+    'tx_inventory_domain_model_product' => 'uid',
   ),
   'fieldTypes' => 
   array (
@@ -5144,6 +5145,49 @@ return array (
         'notnull' => 0,
       ),
     ),
+    'tx_inventory_domain_model_product' => 
+    array (
+      'uid' => 
+      array (
+        'type' => 'int',
+        'metaType' => 'I8',
+        'notnull' => 0,
+      ),
+      'pid' => 
+      array (
+        'type' => 'int',
+        'metaType' => 'I8',
+        'notnull' => 1,
+        'default' => '\'0\'',
+      ),
+      'serial_no' => 
+      array (
+        'type' => 'int',
+        'metaType' => 'I8',
+        'notnull' => 1,
+        'default' => '\'0\'',
+      ),
+      'name' => 
+      array (
+        'type' => 'varchar',
+        'metaType' => 'C',
+        'notnull' => 0,
+        'default' => '\'\'',
+      ),
+      'description' => 
+      array (
+        'type' => 'text',
+        'metaType' => 'XL',
+        'notnull' => 0,
+      ),
+      'quantity' => 
+      array (
+        'type' => 'int',
+        'metaType' => 'I8',
+        'notnull' => 1,
+        'default' => '\'0\'',
+      ),
+    ),
   ),
   'primaryKeys' => 
   array (
@@ -5200,6 +5244,7 @@ return array (
     'tx_dbal_debuglog_where' => 'uid',
     'tx_templavoila_tmplobj' => 'uid',
     'tx_templavoila_datastructure' => 'uid',
+    'tx_inventory_domain_model_product' => 'uid',
   ),
 );
-#0             t3lib_db112932    
+#0             t3lib_db113934    

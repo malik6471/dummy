@@ -854,5 +854,11 @@ return array(
 'tx_templavoila_module2' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3conf/ext/templavoila/mod2/index.php',
 'tx_templavoila_pi1' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3conf/ext/templavoila/pi1/class.tx_templavoila_pi1.php',
 'tx_templavoila_api_testcase' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3conf/ext/templavoila/tests/tx_templavoila_api_testcase.php',
+'tx_extbase_mvc_cli_requesthandler' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3/sysext/extbase/Classes/MVC/CLI/RequestHandler.php',
+'tx_extbase_mvc_cli_requestbuilder' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3/sysext/extbase/Classes/MVC/CLI/RequestBuilder.php',
+'tx_extbase_mvc_cli_commandmanager' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3/sysext/extbase/Classes/MVC/CLI/CommandManager.php',
+'tx_inventory_controller_inventorycontroller' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3conf/ext/inventory/Classes/Controller/InventoryController.php',
+'tx_inventory_domain_repository_productrepository' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3conf/ext/inventory/Classes/Domain/Repository/ProductRepository.php',
+'tx_inventory_domain_model_product' => 'D:/upanels/typo3 tasks/projects/Typo3Installers/TYPO3Winstaller/htdocs/Dummy/typo3conf/ext/inventory/Classes/Domain/Model/Product.php',
 );
-#0             t3lib_autoloader154567    
+#0             t3lib_autoloader155670    

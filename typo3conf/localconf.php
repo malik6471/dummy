@@ -10,7 +10,7 @@ $typo_db_extTableDef_script = 'extTables.php';
 
 ## INSTALL SCRIPT EDIT POINT TOKEN - all lines after this points may be changed by the install script!
 
-$TYPO3_CONF_VARS['EXT']['extList'] = 'css_styled_content,extbase,info,perm,func,filelist,about,version,tsconfig_help,context_help,extra_page_cm_options,impexp,sys_note,tstemplate,tstemplate_ceditor,tstemplate_info,tstemplate_objbrowser,tstemplate_analyzer,func_wizards,wizard_crpages,wizard_sortpages,lowlevel,install,belog,beuser,aboutmodules,setup,taskcenter,info_pagetsconfig,viewpage,rtehtmlarea,t3skin,t3editor,reports,felogin,fluid,workspaces,linkvalidator,scheduler,adodb,dbal,cshmanual,feedit,opendocs,simulatestatic,recycler,templavoila';	// Modified or inserted by TYPO3 Extension Manager. Modified or inserted by TYPO3 Core Update Manager. 
+$TYPO3_CONF_VARS['EXT']['extList'] = 'css_styled_content,extbase,info,perm,func,filelist,about,version,tsconfig_help,context_help,extra_page_cm_options,impexp,sys_note,tstemplate,tstemplate_ceditor,tstemplate_info,tstemplate_objbrowser,tstemplate_analyzer,func_wizards,wizard_crpages,wizard_sortpages,lowlevel,install,belog,beuser,aboutmodules,setup,taskcenter,info_pagetsconfig,viewpage,rtehtmlarea,t3skin,t3editor,reports,felogin,fluid,workspaces,linkvalidator,scheduler,adodb,dbal,cshmanual,feedit,opendocs,simulatestatic,recycler,templavoila,inventory';	// Modified or inserted by TYPO3 Extension Manager. Modified or inserted by TYPO3 Core Update Manager. 
 // Updated by TYPO3 Core Update Manager 02-12-10 12:44:01
 $TYPO3_CONF_VARS['BE']['disable_exec_function'] = '0';	//  Modified or inserted by TYPO3 Install Tool.
 $TYPO3_CONF_VARS['GFX']['gdlib_png'] = '1';	// Modified or inserted by TYPO3 Install Tool. 
@@ -38,7 +38,7 @@ $TYPO3_CONF_VARS['BE']['versionNumberInFilename'] = '0';	//  Modified or inserte
 $TYPO3_CONF_VARS['GFX']['im_version_5'] = 'gm'; // Modified by TYPO3Winstaller
 $TYPO3_CONF_VARS['SYS']['curlUse'] = '1';	//  Modified or inserted by TYPO3 Install Tool.
 // Updated by TYPO3 Install Tool 12-05-11 13:33:06
-$TYPO3_CONF_VARS['EXT']['extList_FE'] = 'css_styled_content,extbase,version,install,rtehtmlarea,t3skin,felogin,fluid,workspaces,adodb,dbal,feedit,simulatestatic,templavoila';	// Modified or inserted by TYPO3 Extension Manager. 
+$TYPO3_CONF_VARS['EXT']['extList_FE'] = 'css_styled_content,extbase,version,install,rtehtmlarea,t3skin,felogin,fluid,workspaces,adodb,dbal,feedit,simulatestatic,templavoila,inventory';	// Modified or inserted by TYPO3 Extension Manager. 
 $TYPO3_CONF_VARS['EXT']['extConf']['templavoila'] = 'a:1:{s:7:"enable.";a:3:{s:13:"oldPageModule";s:1:"0";s:19:"selectDataStructure";s:1:"0";s:15:"renderFCEHeader";s:1:"0";}}';	//  Modified or inserted by TYPO3 Extension Manager.
-// Updated by TYPO3 Extension Manager 25-02-12 11:28:09
+// Updated by TYPO3 Extension Manager 25-02-12 12:54:49
 ?>
