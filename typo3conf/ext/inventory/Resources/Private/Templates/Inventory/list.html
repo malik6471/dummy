@@ -1,0 +1,16 @@
+<table border="1" cellspacing="1" cellpadding="5">
+	<tr>
+		<th>Serial</th>
+		<th>Produktbezeichnung</th>
+		<th>Produktbeschreibung</th>
+		<th>Anzahl</th>
+	</tr>
+	<f:for each="{products}" as="product">
+	<tr>
+		<td valign="top">{product.serial}</td>
+		<td valign="top">{product.name}</td>
+		<td valign="top"><f:format.crop maxCharacters="100">{product.description}</f:format.crop></td>
+		<td valign="top">{product.quantity}</td>
+	</tr>
+	</f:for>
+</table>
